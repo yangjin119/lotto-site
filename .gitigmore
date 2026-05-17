@@ -1,0 +1,14 @@
+# Django 관련 임시 파일 및 캐시
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# Docker 관련 및 OS 임시 파일
+.DS_Store
+Thumbs.db
+
+# 파이썬 가상환경 (혹시 로컬에 만들었을 경우)
+venv/
+.venv/
+env/
